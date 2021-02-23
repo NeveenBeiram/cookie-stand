@@ -30,6 +30,21 @@ height: 2000px;
 
 }
 
+#Salamon Cookies table , th{
+
+    border: 1px solid rgb(75, 32, 73);
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+#Salamon Cookies table,td{
+    border: 1px solid rgb(158, 61, 110);
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
 
 footer{
     text-align: center;
