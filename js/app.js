@@ -138,7 +138,7 @@ function printTableHeader ( ){
 }
 
 function printTableFooter( ){
-
+  let totalOfTotal=0;
   const tr8Element = document.createElement( 'tr' );
   tfootElement.appendChild( tr8Element );
 
@@ -152,12 +152,12 @@ function printTableFooter( ){
     thElement.textContent = seatle1.cookiesNumber[i] + tokyo1.cookiesNumber[i] + dubai1.cookiesNumber[i]
      + paris1.cookiesNumber[i] + lima1.cookiesNumber[i];
   }
-  for ( let i = 0; i < this.cookiesByHour.length; i++ ) {
-    totals += this.cookiesByHour[i];
+  for ( let i = 0; i < hours.length; i++ ) {
+    totalOfTotal += seatle1.totalCookies+tokyo1.totalCookies+paris1.totalCookies+lima1.totalCookies+dubai1.totalCookies;
   }
   const th3Element = document.createElement( 'th' );
   tr8Element.appendChild( th3Element );
-  th3Element.textContent = totals;
+  th3Element.textContent = totalOfTotal;
 }
 
 
