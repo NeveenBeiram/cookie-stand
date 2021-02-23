@@ -30,7 +30,20 @@ height: 2000px;
 
 }
 
+#Salamon Cookies table , th{
 
+    border: 1px solid rgb(75, 32, 73);
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+#Salamon Cookies table,td{
+    border: 1px solid rgb(158, 61, 110);
+    border-collapse: collapse;
+    text-align: center;
+
+}
 
 
 footer{
@@ -41,3 +54,45 @@ footer{
     border-color: darkviolet;
     border-radius: 10px;
 }
+
+
+
+.ulTables li{
+       display:inline-flex;
+       margin: 20px;
+padding:10px;
+    }
+
+
+.t1{
+  border-style: solid;
+  border-color:darkviolet;  
+  text-align: center;
+  text-transform:capitalize;
+}
+
+.t2{
+    border-style: solid;
+    border-color:darkviolet;  
+    text-align: center;
+    text-transform:capitalize;
+  }
+
+  .t3{
+    border-style: solid;
+    border-color:darkviolet;  
+    text-align: center;
+    text-transform:capitalize;
+  }
+  .t4{
+    border-style: solid;
+    border-color:darkviolet;  
+    text-align: center;
+    text-transform:capitalize;   
+  }
+  .t5{
+    border-style: solid;
+    border-color:darkviolet;  
+    text-align: center;
+    text-transform:capitalize;  
+  }
