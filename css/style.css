@@ -96,3 +96,8 @@ padding:10px;
     text-align: center;
     text-transform:capitalize;  
   }
+  fieldset {
+    width : 100%;
+    border: 1px solid rgb(184, 38, 184);
+    box-sizing: border-box;
+  }
