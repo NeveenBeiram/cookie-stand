@@ -26,16 +26,16 @@
             <fieldset>
                 <legend>Add New City</legend>
                 <label for="cityName">City Name</label>
-                <input type="text" id="cityName" name="cityName">
+                <input type="text" id="cityName" name="cityName" required>
 <br><br>
                 <label for="min">Min</label>
-                <input type="text" id="min" name="min">
+                <input type="number" id="min" name="min" value="1" min="1" max="200" required>
 <br><br>
                 <label for="max">Max</label>
-                <input type="text" id="max" name="max">
+                <input type="number" id="max" name="max" value="2" min="2" max="1000" required>
 <br><br>
                 <label for="avg">Avg</label>
-                <input type="text" id="avg" name="avg">
+                <input type="number" id="avg" name="avg" min="2.1" max="10" required>
 <br><br>
                 <button type="submit">Save</button>
             </fieldset>
