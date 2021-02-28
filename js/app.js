@@ -124,7 +124,7 @@ const formElement = document.getElementById('addNewCity');
 formElement.addEventListener('submit', function (event) {
   event.preventDefault();
 
-  //tableElement.removeChild( tableElement.lastChild );
+  tableElement.removeChild( tableElement.lastChild );
 
 
   const cityName = event.target.cityName.value;
@@ -179,7 +179,7 @@ function printTableFooter() {
 
   let totalOfTotal = 0;
   const tr8Element = document.createElement('tr');
-  tfootElement.appendChild(tr8Element);
+  tableElement.appendChild(tr8Element);
 
   const th2Element = document.createElement('th');
   tr8Element.appendChild(th2Element);
