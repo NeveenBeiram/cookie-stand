@@ -63,8 +63,6 @@ tableElement.appendChild(tfootElement);
 
 
 City.prototype.renderObjects = function () {
-  // const tbodyElement = document.createElement('tbody');
-  // tableElement.appendChild(tbodyElement);
 
   const tr2Element = document.createElement('tr');
   tbodyElement.appendChild(tr2Element);

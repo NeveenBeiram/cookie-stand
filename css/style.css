@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 h1{
     color: darkviolet;
     text-transform: uppercase;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 header ul li{
@@ -53,6 +55,7 @@ footer{
     border-style: solid;
     border-color: darkviolet;
     border-radius: 10px;
+    height: 175px;
 }
 
 
@@ -69,6 +72,9 @@ padding:10px;
   border-color:darkviolet;  
   text-align: center;
   text-transform:capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;
+  background-color: whitesmoke;
 }
 
 .t2{
@@ -76,6 +82,9 @@ padding:10px;
     border-color:darkviolet;  
     text-align: center;
     text-transform:capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    background-color: whitesmoke;
   }
 
   .t3{
@@ -83,22 +92,47 @@ padding:10px;
     border-color:darkviolet;  
     text-align: center;
     text-transform:capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    background-color: whitesmoke;
   }
   .t4{
     border-style: solid;
     border-color:darkviolet;  
     text-align: center;
-    text-transform:capitalize;   
+    text-transform:capitalize;  
+    font-family: Arial, Helvetica, sans-serif; 
+    color: blueviolet;
+    background-color: whitesmoke;
   }
+
   .t5{
     border-style: solid;
     border-color:darkviolet;  
     text-align: center;
-    text-transform:capitalize;  
+    text-transform:capitalize; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: blueviolet;
+    background-color: whitesmoke;
   }
   fieldset {
     width : 100%;
     border: 1px solid rgb(184, 38, 184);
     box-sizing: border-box;
     background-color: violet;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+  }
+
+  body{
+    font-family:'Times New Roman', Times, serif;
+    color: darkblue;
+  }
+
+  .defPage{
+    background-color: darkgray;
+  }
+
+  .secPage{
+    background-color: rgb(202, 187, 158);
   }
