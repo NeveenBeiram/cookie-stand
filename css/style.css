@@ -1,10 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+  box-sizing: border-box;
+}
 
-h1{
+.defPage header h1{
     color: darkviolet;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    font-weight:bolder;
+    height: 40px;
+}
+
+.secPage header h1{
+  color: darkviolet;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight:bolder;
+  height: 40px;
+}
+.secPage nav ul{
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.secPage fieldset{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+
+
+nav ul {
+  margin-top: 20px;
+}
+nav ul li{
+  
+  background-color:cornsilk;
 }
 
 header ul li{
@@ -37,6 +71,7 @@ height: 2000px;
     border: 1px solid rgb(75, 32, 73);
     border-collapse: collapse;
     text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -44,18 +79,24 @@ height: 2000px;
     border: 1px solid rgb(158, 61, 110);
     border-collapse: collapse;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
 
 footer{
     text-align: center;
-    text-decoration: underline;
+    text-decoration:underline ;
     color:darkslategray;
     border-style: solid;
     border-color: darkviolet;
     border-radius: 10px;
     height: 175px;
+    background-color: blueviolet;
+    color:black;
+    padding-top: 50px;
+    font-family:serif;
+    line-height: 20px;
 }
 
 
@@ -124,14 +165,13 @@ padding:10px;
     color: blueviolet;
   }
 
-  body{
+  .defPage{
     font-family:'Times New Roman', Times, serif;
     color: darkblue;
+    background-color: rgb(202, 187, 158);
   }
 
-  .defPage{
-    background-color: darkgray;
-  }
+  
 
   .secPage{
     background-color: rgb(202, 187, 158);
